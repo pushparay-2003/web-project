@@ -1,5 +1,5 @@
 <?php
-include 'db.php';
+include 'db_connect.php';
 
 $sql = "SELECT * FROM applications WHERE verification_status = 'verified'";
 $result = $conn->query($sql);
